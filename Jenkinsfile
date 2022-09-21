@@ -4,7 +4,7 @@ node {
 	     
     }
     stage('Maven version') {
-	  sh 'mvn --version'
+	  sh 'mvn -version'
       
     }
 	stage('Java version') {
